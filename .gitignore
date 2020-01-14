@@ -1,13 +1,8 @@
 
-# Created by https://www.gitignore.io/api/node,react,python,code
-# Edit at https://www.gitignore.io/?templates=node,react,python,code
+# Created by https://www.gitignore.io/api/next,node,python,terraform
+# Edit at https://www.gitignore.io/?templates=next,node,python,terraform
 
-### Code ###
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
+#!! ERROR: next is undefined. Use list command to see defined gitignore types !!#
 
 ### Node ###
 # Logs
@@ -131,6 +126,7 @@ develop-eggs/
 downloads/
 eggs/
 .eggs/
+lib/
 lib64/
 parts/
 sdist/
@@ -217,17 +213,34 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-### react ###
-.DS_*
-**/*.backup.*
-**/*.back.*
+### Terraform ###
+# Local .terraform directories
+**/.terraform/*
 
-node_modules
+# .tfstate files
+*.tfstate
+*.tfstate.*
 
-*.sublime*
+# Crash log files
+crash.log
 
-psd
-thumb
-sketch
+# Ignore any .tfvars files that are generated automatically for each Terraform run. Most
+# .tfvars files are managed as part of configuration and so should be included in
+# version control.
+#
+# example.tfvars
 
-# End of https://www.gitignore.io/api/node,react,python,code
+# Ignore override files as they are usually used to override resources locally and so
+# are not checked in
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Include override files you do wish to add to version control using negated pattern
+# !example_override.tf
+
+# Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
+# example: *tfplan*
+
+# End of https://www.gitignore.io/api/next,node,python,terraform
