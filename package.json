@@ -42,7 +42,7 @@
     "ulog": "^1.1.0"
   },
   "devDependencies": {
-    "@types/node": "^13.1.6",
+    "@types/node": "^13.13.48",
     "typescript": "^3.7.4",
     "babel-plugin-module-resolver": "^4.0.0",
     "redux-devtools-extension": "^2.13.8"
