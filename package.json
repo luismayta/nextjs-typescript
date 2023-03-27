@@ -32,7 +32,7 @@
     "next-i18next": "^3.0.1",
     "next-redux-wrapper": "^4.0.1",
     "nprogress": "^0.2.0",
-    "qs": "^6.10.1",
+    "qs": "^6.11.1",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-redux": "^7.2.9",
