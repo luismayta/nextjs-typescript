@@ -43,7 +43,7 @@
   },
   "devDependencies": {
     "@types/node": "^13.13.50",
-    "typescript": "^3.9.9",
+    "typescript": "^3.9.10",
     "babel-plugin-module-resolver": "^4.1.0",
     "redux-devtools-extension": "^2.13.9"
   }
