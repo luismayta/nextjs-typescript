@@ -1273,7 +1273,7 @@
     mkdirp "^1.0.4"
     rimraf "^3.0.2"
 
-"@redux-devtools/extension@^3.0.0":
+"@redux-devtools/extension@^3.3.0":
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/@redux-devtools/extension/-/extension-3.3.0.tgz#bc775d289f15604c472112920beac2cf4dbb7907"
   integrity sha512-X34S/rC8S/M1BIrkYD1mJ5f8vlH0BDqxXrs96cvxSBo4FhMdbhU+GUGsmNYov1xjSyLMHgo8NYrUG8bNX7525g==
